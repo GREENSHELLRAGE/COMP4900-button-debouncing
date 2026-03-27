@@ -4,7 +4,7 @@ ARTIFACT = buttondebounce
 PLATFORM ?= aarch64le
 
 #Build profile, possible values: release, debug, profile, coverage
-BUILD_PROFILE ?= debug
+BUILD_PROFILE ?= release
 
 CONFIG_NAME ?= $(PLATFORM)-$(BUILD_PROFILE)
 OUTPUT_DIR = build/$(CONFIG_NAME)
